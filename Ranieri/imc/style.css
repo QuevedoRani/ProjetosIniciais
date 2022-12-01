@@ -1,0 +1,51 @@
+body{
+    background-image: url(/imgs/imc.png);
+    background-attachment:fixed;
+    background-size: 85rem;
+    background-repeat: repeat-y;
+}
+#label-height{
+    padding-right: 2.05rem;
+}
+#label-weight{
+    padding-right: 2.6rem;
+}
+#label-name{
+    padding-right: 2rem;
+}
+input{
+    border-style:inset;
+    border-radius: 5rem;
+    border-color: brown;
+}
+button{
+    border-style:groove;
+    border-radius: 5rem;
+    border-color: brown;
+}
+label{
+}
+#id-calc{
+    border-radius: 2rem;
+}
+h1{
+    color: rgb(255, 0, 0);
+}
+::placeholder{
+    color: rgb(216, 30, 30);
+}
+main{
+    background: none;
+    background-color: rgba(165, 42, 42, 0.274);
+    width: 60%;
+    height: 60%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    color: red;
+}
+
+
